@@ -46,3 +46,17 @@ body {font-family: Arial;}
   border: 1px solid #ccc;
   border-top: none;
 }
+
+/* Bold Class */
+.bold {
+  font-weight: bold;
+}
+
+/* Italic Class */
+.italic {
+  font-weight: italic;
+}
+
+/* Theme Colors */
+.theme {
+}
