@@ -8,10 +8,11 @@
 </head>
 <body>
 <div class="tab">
-  <button class="tablinks" onclick="openTabss(event, 'Home')">Home</button>
-  <button class="tablinks" onclick="openTabss(event, 'Current Projects')">Current Projects</button>
-  <button class="tablinks" onclick="openTabss(event, 'Sign Up')">Sign Up</button>
-  <button class="tablinks" onclick="openTabss(event, 'About')">About</button>
+  <button class="tablinks" onclick="openTabs(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openTabs(event, 'Current Projects')">Current Projects</button>
+  <button class="tablinks" onclick="openTabs(event, 'Sign Up')">Sign Up</button>
+  <button class="tablinks" onclick="openTabs(event, 'Contact')">Contact</button>
+  <button class="tablinks" onclick="openTabs(event, 'About')">About</button>
 </div>
 
 <div id="Home" class="tabcontent">
@@ -21,13 +22,17 @@
   
  <div id="Current Projects" class="tabcontent">
   <h3>Current Projects</h3>
-  <p>The current project is finishing this website. After the website is completed, I will continue with the game project.</p>
+  <p>The current project is finishing this website and making it look presentable. After the completion, I will start working on websites to use as a display.</p>
 </div>
 
 <div id="Sign Up" class="tabcontent">
   <h3>Sign Up</h3>
   <p>Sign Up is the Sign Up page.</p> 
 </div>
+  
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Email: zeroshotdev@gmail.com</p>
 
 <div id="About" class="tabcontent">
 <center>
@@ -39,7 +44,7 @@
 </div>
 
 <script>
-function openTabss(evt, tabName) {
+function openTabs(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
